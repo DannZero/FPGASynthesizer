@@ -16,7 +16,7 @@ architecture Behavioral of square_osc is
 	signal contador :	integer range 0 to limite := 0;
 begin
 	process ( reset, clk ) 
-		variable temporal : std_logic;
+		variable temporal : std_logic := '0';
 	begin
 		if ( reset = '1' ) then
 			temporal := '0';
@@ -31,7 +31,6 @@ begin
 		end if;
 		salida <= temporal;
 	end  process;
-
 end Behavioral;
 
 
