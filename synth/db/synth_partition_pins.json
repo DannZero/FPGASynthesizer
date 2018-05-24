@@ -1,0 +1,49 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "speaker",
+					"strict" : false
+				},
+				{
+					"name" : "botones[3]",
+					"strict" : false
+				},
+				{
+					"name" : "botones[4]",
+					"strict" : false
+				},
+				{
+					"name" : "botones[2]",
+					"strict" : false
+				},
+				{
+					"name" : "botones[5]",
+					"strict" : false
+				},
+				{
+					"name" : "botones[6]",
+					"strict" : false
+				},
+				{
+					"name" : "botones[7]",
+					"strict" : false
+				},
+				{
+					"name" : "botones[0]",
+					"strict" : false
+				},
+				{
+					"name" : "botones[1]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
