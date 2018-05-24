@@ -1,14 +1,14 @@
-Fitter Status : Successful - Wed May 23 16:42:31 2018
+Fitter Status : Successful - Thu May 24 02:26:51 2018
 Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 Revision Name : synth
 Top-level Entity Name : synth_top
 Family : MAX 10
 Device : 10M50DAF484C7G
 Timing Models : Final
-Total logic elements : 310 / 49,760 ( < 1 % )
-    Total combinational functions : 310 / 49,760 ( < 1 % )
-    Dedicated logic registers : 167 / 49,760 ( < 1 % )
-Total registers : 167
+Total logic elements : 27 / 49,760 ( < 1 % )
+    Total combinational functions : 27 / 49,760 ( < 1 % )
+    Dedicated logic registers : 14 / 49,760 ( < 1 % )
+Total registers : 14
 Total pins : 10 / 360 ( 3 % )
 Total virtual pins : 0
 Total memory bits : 0 / 1,677,312 ( 0 % )

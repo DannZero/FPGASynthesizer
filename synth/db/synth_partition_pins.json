@@ -8,19 +8,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "botones[3]",
-					"strict" : false
-				},
-				{
 					"name" : "botones[4]",
-					"strict" : false
-				},
-				{
-					"name" : "botones[2]",
-					"strict" : false
-				},
-				{
-					"name" : "botones[5]",
 					"strict" : false
 				},
 				{
@@ -32,7 +20,19 @@
 					"strict" : false
 				},
 				{
+					"name" : "botones[5]",
+					"strict" : false
+				},
+				{
 					"name" : "botones[0]",
+					"strict" : false
+				},
+				{
+					"name" : "botones[2]",
+					"strict" : false
+				},
+				{
+					"name" : "botones[3]",
 					"strict" : false
 				},
 				{
