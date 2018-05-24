@@ -1,22 +1,26 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.NUMERIC_STD.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 entity square_osc is
 		generic ( 
-			limite :	integer := 227272);
+			freq_osc :	real := 32.7032); -- Valor de la frecuencia de la nota deseada
 		port ( 
-			clk :		in	std_logic;
-			reset :	in	std_logic;
-			salida :	out	std_logic);
+			clk 		:	in	std_logic;
+			reset 	:	in	std_logic;
+			salida 	:	out	std_logic);
 end square_osc;
 
 architecture Behavioral of square_osc is
-	signal contador :	integer range 0 to limite := 0;
+	constant	fpga_clk_freq	: integer := 50000000;	-- Frecuencia del reloj del FPGA
+	signal contador 			: integer range 0 to fpga_clk_freq := 0;
+	variable limite			: integer range 0 to fpga_clk_freq;
 begin
+	limite	<= fpga_clk_freq / freq_osc;
 	process ( reset, clk ) 
 		variable temporal : std_logic := '0';
+		
 	begin
 		if ( reset = '1' ) then
 			temporal := '0';
