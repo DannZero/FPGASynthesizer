@@ -549,7 +549,7 @@ refer to the applicable agreement for further details.
 		(pt 144 32)
 		(output)
 		(text "salida" (rect 0 0 28 12)(font "Arial" ))
-		(text "salida" (rect 100 27 123 39)(font "Arial" ))
+		(text "salida" (rect 100 27 128 39)(font "Arial" ))
 		(line (pt 144 32)(pt 128 32))
 	)
 	(parameter
@@ -608,7 +608,7 @@ refer to the applicable agreement for further details.
 	(pt 928 400)
 )
 (connector
-	(text "osc_en[3]" (rect 810 472 856 489)(font "Intel Clear" ))
+	(text "osc_en[3]" (rect 826 472 872 489)(font "Intel Clear" ))
 	(pt 928 488)
 	(pt 552 488)
 )
@@ -633,7 +633,7 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "osc_en[5]" (rect 842 824 888 841)(font "Intel Clear" ))
+	(text "osc_en[5]" (rect 826 824 872 841)(font "Intel Clear" ))
 	(pt 552 840)
 	(pt 928 840)
 )
@@ -648,7 +648,7 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "osc_en[7]" (rect 818 1088 864 1105)(font "Intel Clear" ))
+	(text "osc_en[7]" (rect 826 1088 872 1105)(font "Intel Clear" ))
 	(pt 552 1104)
 	(pt 928 1104)
 )

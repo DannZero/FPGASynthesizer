@@ -23,7 +23,7 @@ begin
 			temporal := '0';
 			contador <= 0;
 		elsif	rising_edge ( clk ) then
-			if ( contador >= (limite / 2) ) then
+			if ( contador >= (limite / 4) ) then
 				temporal := not ( temporal );
 				contador <= 0;
 			else
